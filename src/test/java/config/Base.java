@@ -34,6 +34,7 @@ public class Base {
     }
 
     public static void navigatTo() {
+
         driver.get(prop.getProperty("url"));
     }
 

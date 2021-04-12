@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BurningGlassShitalGitHub" />
+        <module name="test-cucumber_plugin_reporting_2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="20160509-test-cucumber_plugin_reporting_2" target="1.8" />
+      <module name="BurningGlassShitalGitHub" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

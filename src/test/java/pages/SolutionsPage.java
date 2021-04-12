@@ -38,7 +38,7 @@ public class SolutionsPage extends Base {
 
     public void verifySectionsAvailable(List<String> data) {
 
-        for (int x = 0; x <= data.size(); x++) {
+        for (int x = 0; x < data.size(); x++) {
 
             String sectionName = data.get(x);
             String sectionXPath = "//h2[text()='" + sectionName + "']";
